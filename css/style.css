@@ -11329,9 +11329,22 @@ hr.divider-light {
 .custom-card {
   transition: transform 0.3s ease;
 }
-
+/* Animasi card*/
 .custom-card:hover {
   transform: translateY(-10px); /* Ubah angka ini sesuai dengan seberapa jauh card harus naik */
+}
+
+/* animasi teks depan*/
+.animation-text{
+  animation: fadeIn 2.5s ease-in;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }
 
 
