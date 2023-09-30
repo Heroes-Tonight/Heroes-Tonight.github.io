@@ -11326,6 +11326,14 @@ hr.divider {
 hr.divider-light {
   background-color: #fff;
 }
+.custom-card {
+  transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px); /* Ubah angka ini sesuai dengan seberapa jauh card harus naik */
+}
+
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
